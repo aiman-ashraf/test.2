@@ -1,0 +1,119 @@
+.left-buttons,.right-buttons{
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer; 
+    border-radius: 2px;
+    transition: hover 5s;
+    font-size: 10px;
+    text-align: center;
+}
+.left-buttons:hover,.right-buttons:hover,.pixel-max-button:hover{
+    background-color: rgb(245, 243, 243);
+    border-color: transparent;
+}
+.left-buttons:active,.right-buttons:active,.pixel-max-button:active{opacity: 5s;
+    background-color: rgb(240, 238, 238);
+    border-color: transparent;
+}
+.join-button{cursor: pointer;
+    color: white;
+    background-color: rgb(143, 211, 143);
+    border: 0px;
+    border-radius: 3px;
+    padding: 3px 7px 3px 7px;
+    transition: hover 5s;
+}
+.join-button:hover{
+    border-color:rgb(169, 204, 169) ;
+    background-color:rgb(87, 155, 87);
+}
+.join-button:active{
+    opacity: 5s;
+    border-color:rgb(169, 204, 169) ;
+    background-color:rgb(169, 204, 169);
+}
+.pixel-max-button{border-radius: 5px;
+    cursor: pointer;
+    border: 0px;
+    font-size: 20px;
+    font-family: fancy script bold italic;
+    text-align: center;
+    background: linear-gradient(to left,
+            violet,
+            indigo,
+            blue,
+            green,
+            red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.Your-Creative-Home{
+    background-color:  rgb(252, 236, 242);
+    height: 120px;
+}
+form{border: 0px ;
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+form button{   background-color: white;
+   color:  rgb(247, 230, 232);
+    border: none;
+    outline: none;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 15px;
+}    
+form input{display: flex;
+    justify-content: center;
+    background-color:white;
+    flex: 1;
+    border: none;
+    outline: none;
+}
+form select{background-color: white;
+    border: 0px;
+    border-radius: 15px;
+    text-align:end;
+}
+.f2,.f1{
+    display: flex;
+    justify-content: center;
+}
+.creative{border-radius: 2px;
+    border: 0px;
+    background-color: white;
+    margin-top: 20px; margin-bottom: 30px; cursor: pointer;
+    transition: hover 5s;
+    font-weight: normal;
+}
+.creative:hover,.pics:hover,.icon:hover{
+    background-color: gainsboro;
+    border-color: gainsboro;
+}.creative:active,.pics:active,.icon:active{opacity: 5s; background-color: rgb(100, 99, 99);}
+.feeds{
+    width: 120px;
+}
+.pics{
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    transition: hover 5s;}
+.icon{
+    transition: hover 5s;}
+.more-button{cursor: pointer;
+        border-radius: 3px;
+        border: 0px;
+        margin:  40px 0px 20px 0px;
+        padding: 10px 8px 10px 8px;
+        width: 120px;
+        background-color: rgb(245, 33, 68);
+        color: white;
+        transition: hover 5s;  }
+.more-button:hover{background-color:rgb(228, 189, 228);border-color: transparent;}
+.more-button:active{
+    background-color: pink; border-color: pink;opacity: 5s;}
